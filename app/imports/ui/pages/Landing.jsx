@@ -1,6 +1,6 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
-import { FileEarmarkTextFill, PeopleFill } from 'react-bootstrap-icons';
+import { Col, Container, Row } from 'react-bootstrap';
+import { Calendar2CheckFill, FileEarmarkTextFill, PeopleFill } from 'react-bootstrap-icons';
 
 /* A simple static component to render some text for the landing page. */
 const Landing = () => (
@@ -19,7 +19,9 @@ const Landing = () => (
       </Col>
 
       <Col xs={4}>
-        
+        <Calendar2CheckFill size={100} />
+        <h1>Timestamped Notes</h1>
+        <p>Each time you make contact with a contact, you can write a note that summarizes the conversation. This note is saved along with a timestamp with the contact.</p>
       </Col>
     </Row>
   </Container>
