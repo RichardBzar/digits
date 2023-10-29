@@ -12,6 +12,10 @@
  */
 body {
   --bs-light-rgb: var(--matr-navbar-bg-rgb);
+  background-image: url("images/sky.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Set the alert background on the signin and signup pages. */
