@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { useTracker } from 'meteor/react-meteor-data';
 import { Stuffs } from '../../api/stuff/Stuff';
 import LoadingSpinner from '../components/LoadingSpinner';
+import Contact from '../components/Contact';
 
 /* Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
 const ListContacts = () => {
@@ -50,6 +51,9 @@ const ListContacts = () => {
           <Col className="text-center">
             <h2>List Contacts</h2>
           </Col>
+          <Row xs={1} md={2} lg={3} className="g-4">
+            {contacts.map((contact, index) => (<Col key={index}><Contact contact={contact} /> </Col>))}
+          </Row>
         </Col>
       </Row>
     </Container>
