@@ -52,8 +52,10 @@ const AddContact = () => {
                   <Col><TextField name="firstName" /></Col>
                   <Col><TextField name="lastName" /></Col>
                 </Row>
-                <TextField name="address" />
-                <TextField name="image" />
+                <Row>
+                  <Col><TextField name="address" /></Col>
+                  <Col><TextField name="image" /></Col>
+                </Row>
                 <LongTextField name="description" />
                 <SubmitField value="Submit" />
                 <ErrorsField />
