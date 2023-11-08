@@ -1,3 +1,8 @@
 <p align="center">
-  <img width="250px" height="225px" src="/" >
+  <img src="LandingPage.png" >
 </p>
+
+## Landing Page
+This is the page where you first enter as you type in the url and establish a connection
+
+
