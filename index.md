@@ -24,7 +24,7 @@ This is the page where you sign in in order to gain access to the rest of the we
 This is the page where the contacts that you currently have access to in your database is displayed for the user to see and comment on with notes. Notes that are made on each contact are saved and loaded under the contacts
 
 <p align="center">
-  <img src="Add-Contact.png" >
+  <img src="doc/Add-Contact.png" >
 </p>
 
 ## Add Contact Page
